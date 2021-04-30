@@ -60,10 +60,33 @@ h1 {
 
 .columns {
     display: flex;
+    flex-basis: 100%;
+    justify-content: space-around;
 }
 
 .columns > * {
-    flex-basis: 100%;
+    border: 3px solid #5ec1ed;
     margin: 20px 10px;
     color: #5cb1ed;
 }
+h5 {
+    width: 150px;
+    white-space: wrap;
+}
+
+.card {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card:hover {
+    transition: 0.8s;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.7);
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+
+  

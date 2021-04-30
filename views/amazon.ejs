@@ -8,7 +8,7 @@
     <body>
         <header>
             <div class="container">
-                <img src="assets/logo.png" height="80" width="80" alt="logo" class="logo">
+                <a href="/"><img src="assets/logo.png" height="80" width="80" alt="logo" class="logo"></a>
                 <nav>
                     <ul>
                         <li><a href="/amazon">Amazon</a></li>
@@ -18,7 +18,7 @@
                 </nav>
             </div>
         </header>
-        <h1>Amazon's PC</h1>
+        <h1><center>Amazon's PC</center></h1>
         <% i = 0 %>
         <% end_col = false %>
         <div class="columns">
@@ -28,8 +28,10 @@
                 <% end_col = false %>
                 <div class="columns">
             <% } %>
-            <img src="<%= PC.image %>" width="125" height="150">
-            <h5><%= PC.title %></h5>
+            <div class="card">
+                <img src="<%= PC.image %>" width="125" height="150">
+                <h5><%= PC.title %></h5>
+            </div>
             <% ++i %>
         <% }); %>
         </div>
