@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background: #5cb1ed;
+    background: #48db74;
 }
 
 header::after {
@@ -55,7 +55,7 @@ nav a:hover {
 }
 
 h1 {
-    color: #5cb1ed;
+    color: #48db74;
 }
 
 .columns {
@@ -65,9 +65,9 @@ h1 {
 }
 
 .columns > * {
-    border: 3px solid #5ec1ed;
+    border: 3px solid #5eed8e;
     margin: 20px 10px;
-    color: #5cb1ed;
+    color: #48db74;
 }
 h5 {
     width: 150px;
