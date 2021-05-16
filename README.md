@@ -1,5 +1,11 @@
 # PCify
 
+<center>
+    <img src="Amazon_Processors_Page.png" width="80%" style="margin:2rem; border-radius:1rem">
+</center>
+
+## General Info
+
 A NodeJS web application that uses Cheerio to scrap data from PCs' parts displayed in other websites.
 
 <br>
